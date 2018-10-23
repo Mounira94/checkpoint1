@@ -1,0 +1,427 @@
+.body
+{
+   margin: 0
+
+}
+.logo-img
+{
+    height: 30px;
+    width: 50px;
+    
+}
+
+.header
+{display: flex;
+}
+
+.brand
+{
+    width: 20%;
+    
+}
+.nav-bar
+{
+    width:60%;
+    text-decoration-line: none;
+}
+.sign
+{
+    display: flex;
+    width:10%;
+    border-right:1px solid #a7aeb9;
+    justify-content: center;
+    align-items: center;
+}
+.sign-link
+{
+    color:skyblue;
+}
+
+.login
+ { 
+     display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center; 
+}
+.login-link
+{
+    color:rebeccapurple;
+}
+.nav-top
+{
+    padding: 10px 20px;
+    display: flex;
+    border-bottom: 1px solid #a7aeb9;
+    border-left: 1px solid #a7aeb9;
+    border-right: 1px solid #a7aeb9;
+}
+.nav-top-menu
+{
+    padding: 10px 20px;
+    color: #a7aeb9;
+    text-decoration-line: none;
+   
+    
+}
+.nav-top-menu-active
+{
+    color: #363948;
+}
+.nav-bottom
+{
+    position: relative;
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid #a7aeb9;
+    border-left: 1px solid #a7aeb9;
+    border-right: 1px solid #a7aeb9;
+    
+}
+.nav-bottom-menu-link
+{
+    padding: 10px 20px;
+    color: #a7aeb9;
+    text-decoration-line: none;
+}
+.nav-bottom-menu-link
+{
+    text-decoration-line: none;
+    
+}
+.nav-bottom-menu-item-link
+{
+    text-decoration-line: none;
+}
+.drop-down-menu{
+display: none;
+position: absolute;
+
+}
+.nav-bottom-menu:hover  .drop-down-menu
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.video
+{
+    height: 900px;
+    width: 100%;
+    position: relative;
+  border:1px solid white;
+}
+.video-img
+{
+position:absolute;
+z-index: -1;
+width:100%;
+height:100%;
+  
+}
+.video-title
+{
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+    font-size: 2.6em;
+    font-weight: 400;
+    margin-bottom: 40px;
+    display: block;
+    padding-top: 100px;
+    
+  
+}
+.white
+{
+    color: white;
+}
+.video-link
+{
+    background-color: white;
+    border-radius: 5px;
+    font-family: "Walsheim", sans-serif;
+    font-size: 20px;
+    padding: 22px 50px;
+    text-decoration-line: none;
+    color: #363945;
+    font-weight: bold;
+    
+}
+.video-txt
+{
+padding-left: 60px;
+}
+ .wistiaservice-cards
+{
+  display: flex;
+ } 
+.wistiaservice-card
+{ margin-top: 0px;
+    height: 300px;
+    padding: 30px 40px;
+}
+
+.wistiaservice-card .fa
+{
+font-size: 50px;
+display: flex;
+justify-content: flex-start;
+
+}
+.fa-sort-amount-up
+{
+    color: #3ea9f5;
+}
+.fa-desktop
+{
+   color: #E8B3CB;
+}
+.fa-book
+{
+    color:#FED24A;
+}
+.wistiaservice-card-title
+{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+}
+.wistiaservice-card-description
+{
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    color: #363945;
+}
+.wistiaservice-card-learnmore 
+{
+    text-decoration: underline;
+}
+.wistiaservice-card-link
+{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #EFEFEF;
+    padding: 17px 20px;
+    border-radius: 5px;
+    text-decoration-line: none;
+    
+}
+.wistiaservice-card-hosting
+{
+    background-color: #FED24A;
+   
+}
+.wistiaservice-card-Soapbox
+{
+    background-color: #51C29F;
+}
+.wistiaservice-card-skills
+{
+    background-color: #3EA9F5;
+}
+.business
+{
+    margin: 60px auto;
+    display: flex;
+    max-width: 1280px;
+    flex-flow: row wrap;
+    align-items: center;
+
+}
+.business-logo
+{
+    padding: 20px 20px;
+    max-height: 110px;
+    max-width:230px;
+
+}
+.business-descriptions
+{
+    max-width: 160px;
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+    text-align: center;
+}
+.business-description
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.witnesses-cards
+{
+    margin: 100px auto;
+    display: flex;
+    max-width: 1220px;
+    align-items: top;
+    justify-content: space-between;
+    padding: 30px 20px;
+
+}
+.witnesses-card
+{
+    margin-top: 0px;
+    height: 300px;
+    padding: 30px 40px;
+}
+.witnesses-card-img
+{
+    width: 328px;
+    height: 248px;
+}
+.witnesses-card-title
+{
+    line-height: 26px;
+    margin: 25px 0;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    color: #363945;
+}
+.witnesses-card-description
+{
+    font-size: 16px;
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+}
+.witnesses-card-link
+{
+    color: #217AD5;
+    font-size: 16px;
+}
+.footer-termservice-description
+{
+    display: flex;
+    color: #777777;
+    font-size: 18px;
+    padding: 25px 40px;
+    text-align: center;
+    background-color: #e8e7e6;
+    justify-content: center;
+    
+}
+
+.footer-termservice
+{
+    color: #777777;
+}
+.footer-info
+{
+    background-color: #2A2D35;
+    display: flex;
+    margin: 0 auto;
+    padding: 47px 60px 25px;
+}
+.footer-info-img
+{
+    width: 50px;
+}
+.footer-info-paragraph
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 1em;
+}
+.footer-info-detail
+{   
+    font-size: 1.6em;
+    line-height: 1.3em;
+    font-weight: 500;
+    width: 70%;
+    color: white;
+    font-family: "Walsheim", sans-serif;
+   
+}
+.footer-info-socialmedia
+{
+    font-size: 1.2em;
+    padding-right: 20px;
+    color: white;
+}
+.footer-info-socialmedialink
+{
+    color: #217AD5;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer-info-platforms
+{
+    display: flex;
+
+}
+.footer-info-platforms-part
+{
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+}
+.footer-info-platforms-title
+{
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: white;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.footer-info-platforms-link
+{
+    color: #b2b9c1;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-info-platforms-link:hover
+{
+    text-decoration-line: underline;
+}
+hr
+{
+    width: 90vw;
+   margin: 0px auto;
+
+
+}
+.footer-rights
+{ 
+    background-color: #2A2D35;
+
+}
+.footer-rights-description
+{
+    color: #9CA8B7;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+.footer-privacy
+{
+    text-decoration: none;
+    color: #b2b9c1;
+    font-size: 16px;
+}
+.footer-privacy:hover
+{
+    text-decoration-line: underline;
+}
